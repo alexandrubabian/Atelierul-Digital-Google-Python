@@ -1,0 +1,40 @@
+Problema 1
+Creati o clasa ce va reprezenta un catalog: 
+• La initializare trebuie sa oferim doi parametrii de intrare nume si prenume Metoda de initializare creaza un atribut numit materii de tip dictionar nepopulat, dar si un atribut numit absente initializat la 0. 
+• Avem o metoda care afiseaza absente implementat cu __str__ 
+• Avem o metoda care incrementeaza cu 1 nr. de absente 
+• Avem o metoda care sterge un nr. (exclusiv un numar - verifica) de absente dat (pentru cazurile in care avem o scutire medical) fara a deveni negativ 
+
+Creati a doua clasa numita Extensie1 care sa mosteneasca prima clasa. Clasa materii sa aiba 3 metode:  
+Prima metoda permite adaugarea prin doi parametrii de intrare a unui sir de caractere reprezentand materia si o lista reprezentand notele. Acesti parametrii de intrare sunt utilizati pentru a adauga o intrare in dictionarul atribut materii al obiectului current. Cheia este materia (sirul de caractere) si lista reprezinta value.  
+A doua metoda permite afisarea tuturor materilor unui student.  
+A treia metoda permite afisarea materiilor si media aritmetica a fiecarei liste asociate pentru fiecare materie in parte. Verificati daca in lista sunt elemente de tip numar si ignorati alte valori.
+
+Verificari: 
+• Creati 1 student numit Ion Roata 
+• Modificati argumentul absente sa fie incrementat de 3 ori prin metoda creata 
+• Stergeti doua absente prin metoda specificata 
+• Creati al doilea student numit George Cerc 
+• Modificati argumentul absente sa fie incrementat de 4 ori prin metoda creata 
+• Stergeti doua absente prin metoda specificata 
+• Afisati absentele fiecarui student 
+• Adaugati materia ”Python” impreuna cu o lista formata din 3 numere intre 1-10 pentru fiecare student
+• Adaugati materia ”Matematica” la al doilea student numit George Cerc si “Romana” pentru studentul numit Ion Roata impreuna cu o lista formata din 3 numere intre 1-10 pentru fiecare student 
+• Verificati ce materii are fiecare student prin metoda ce permite afisarea tuturor materilor unui student. 
+• Verificati ce materii si ce note mediate au studentii.
+
+
+Problema 2:
+Creati 3 clase ce vor reprezenta un catalog de prajituri. 
+• Creati o clasa ce va reprezenta un catalog de prajituri. 
+La crearea unui obiect al acestei clase va solicita trei argumente reprezentand nume (sir de caractere), preț (integer) si gramaj (integer) cu care va crea trei atribute. Fiecare obiect creat va fi adaugat intr-o lista mentinuta de o variabila a clasei. 
+Clasa trebuie sa detina o metoda care sa poate afisa toate prăjituri sortand în funcție de gramaj afisand gramajul, numele și pretul Clasa trebuie sa detina o metoda care sa poate afisa toate prăjituri în funcție de pret afisand gramajul, numele și prețul
+• Creati a doua clasa care mosteneste prima clasa care se va numi tort.
+ Aceasta clasa va avea o atribut numit etajat care default sa devina False și alt atribut care se numește glazura (sir de caractere) ce este default „ciocolata”. Aceste atribute trebuiesc implementate printr-o metoda de setare cu parametrii de intrare. O alta metoda permite citirea acestora.
+ • Creati a treia clasa care mosteneste prima clasa care se va numi fursec. Aceasta va mosteni intocmai prima clasa fara a modifica/ adauga nimic. 
+
+Creati 3 obiecte ale clasei tort si trei obiecte ale clasei fursec. 
+Afisati prajiturie dupa gramaj. 
+Afisati prajiturie dupa pret. 
+Folositi pentru un obiect de tip tort modificarea atributelor etajat in True si glazura in “cacao”, apoi pentru acest obiect folositi metoda de afisare a atributelor glazura si etajat. 
+De asemenea, folositi metoda de setare/afisare si pentru un alt obiect de tip tort
