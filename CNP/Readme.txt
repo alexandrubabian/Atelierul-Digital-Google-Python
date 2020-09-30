@@ -1,0 +1,1 @@
+In programul CNP.py am verificat daca un CNP introdus de la tastatura este valid. Daca nu este, programul afiseaza motivul din care este invalid.
